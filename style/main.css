@@ -1,0 +1,46 @@
+html, body{
+	padding: 0;
+	margin: 0;
+}
+h2{
+	color: royalblue;
+	font-family: 'Josefin Sans', sans-serif;
+	font-style: italic;
+	font-weight: 600;
+}
+a, a:hover{
+	text-decoration: none;
+}
+.container{
+	margin: 20px auto;
+	padding: 0;
+}
+.pugButton {
+	width: 25px;
+	height: 25px;
+	border-bottom: 2px solid lightgrey;
+	color: grey;
+	font-weight: 600;
+	text-align: center;
+	line-height: 25px;
+	list-style: none;
+	display: inline-block;
+}
+.table{
+	margin: 0;
+	padding: 0;
+	border: 1px solid lightgrey;
+}
+.searchField{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.searchItem{
+	height: 30px;
+}
+.searchItem[type='submit'], .searchItem[type='reset']{
+	width: 100px;
+	line-height: 100%;
+}
+
